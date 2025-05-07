@@ -1,0 +1,64 @@
+.header {
+    background-color: var(--bg-whitesmoke);
+    box-shadow: 0px 4px 0px rgba(168, 168, 168, 0.5);
+
+    height: 75px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 10%;
+
+}
+
+.logo {
+    background-color: var(--bg-whitesmoke-lighter);
+    padding: 4px;
+    border-radius: 50px;
+    box-shadow: 1px 1px 3px var(--bg-whitesmoke-darker);
+    height: 30px;
+}
+
+.title {
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 1100;
+    color: var(--c-darkgray);
+    letter-spacing: 2px;
+}
+
+.middleHeader {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.middleHeader p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--c-darkgray);
+    cursor: pointer;
+    user-select: none;
+}
+
+.middleHeader p:hover {
+    color: var(--c-orange);
+}
+
+.contact {
+    background-color: var(--c-orange);
+    padding: 10px 25px;
+    text-transform: uppercase;
+
+    font-family: "Cal Sans", sans-serif;
+    letter-spacing: 2px;
+    color: var(--c-white);
+    box-shadow: 5px 5px 0px var(--c-darkgray);
+    cursor: pointer;
+}
+
+.contact:hover {
+    background-color: var(--c-orange-darker);
+}
