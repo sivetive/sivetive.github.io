@@ -23,6 +23,12 @@ body {
     --c-darkgray: rgb(54, 54, 54);
     --c-white: whitesmoke;
 
-    --bg-page: rgb(253, 236, 215);
+    --bg-page: rgb(255, 248, 234);
+
+    --padding-width: 10%;
+    --padding-height: 50px;
+
+    --font-important: "Cal Sans", sans-serif;
+    --font-text: "Montserrat", sans-serif;
 
 }

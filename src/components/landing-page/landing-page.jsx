@@ -1,6 +1,11 @@
+import WelcomeCard from "../welcome-card/welcome-card";
+import styles from './landing-page.module.css';
+
 const LandingPage = () => {
     return(
-        <p>This is a landing page!</p>
+        <div className={styles.container}>
+            <WelcomeCard />
+        </div>
     )
 }
 
