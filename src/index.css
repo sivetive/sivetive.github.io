@@ -19,13 +19,15 @@ body {
     --bg-whitesmoke-darker: rgb(168, 168, 168);
 
     --c-orange: rgb(255, 123, 0);
+    --c-pink: rgb(255, 123, 0);
     --c-orange-darker: rgb(216, 104, 0);
     --c-darkgray: rgb(54, 54, 54);
+    --c-darkgray-alt: rgb(88, 88, 88);
     --c-white: whitesmoke;
 
     --bg-page: rgb(255, 248, 234);
 
-    --padding-width: 10%;
+    --padding-width: 16%;
     --padding-height: 50px;
 
     --font-important: "Cal Sans", sans-serif;
