@@ -18,14 +18,14 @@ body {
     --bg-whitesmoke-ligher: rgb(255, 255, 255);
     --bg-whitesmoke-darker: rgb(168, 168, 168);
 
-    --c-orange: rgb(255, 123, 0);
+    --c-orange: #ff7b00;
     --c-pink: rgb(255, 123, 0);
     --c-orange-darker: rgb(216, 104, 0);
-    --c-darkgray: rgb(54, 54, 54);
+    --c-darkgray: #363636;
     --c-darkgray-alt: rgb(88, 88, 88);
     --c-white: whitesmoke;
 
-    --bg-page: rgb(255, 248, 234);
+    --bg-page: whitesmoke;
 
     --padding-width: 16%;
     --padding-height: 50px;

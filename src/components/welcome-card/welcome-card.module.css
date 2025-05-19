@@ -8,7 +8,6 @@
 }
 
 .containerLeft {
-    width: 50%;
     height: 100%;
     display: inline-flex;
     flex-direction: column;
@@ -19,8 +18,17 @@
 }
 
 .containerRight {
-    width: 50%;
     height: 100%;
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.portrait {
+    height: inherit;
 }
 
 .upperText {
@@ -31,8 +39,16 @@
 }
 
 .mainText {
-    font-weight: 700;
-    font-size: 80px;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.mainText span {
+    color: var(--c-orange);
+}
+
+.mainText u {
+    text-decoration-color: var(--c-orange);
 }
 
 .subText {
@@ -42,13 +58,9 @@
     margin-top: 20px;
 }
 
-.portrait {
-    height: inherit;
-}
 
-.portraitBackground {
-    width: 150px;
-    height: 150px;
-    position: absolute;
-    z-index: -1;
+
+.buttons Button {
+    margin-top: 20px;
+    margin-right: 30px;
 }

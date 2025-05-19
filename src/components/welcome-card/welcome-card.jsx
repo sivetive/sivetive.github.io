@@ -1,18 +1,22 @@
+import Button from '../button/button';
 import styles from './welcome-card.module.css';
 
 const WelcomeCard = () => {
     return(
         <div className={styles.container}>
             <div className={styles.containerLeft}>
-                <p className={styles.upperText}>👋 Cześć, nazywam się</p>
-                <p className={styles.mainText}>Bartosz Burzec</p>
-                <p className={styles.subText}>Lubię kodować, grać i pracować (za pieniądze! 💸)</p>
+                <p className={styles.mainText}> Cześć, jestem <span>Bartosz</span></p>
+                <p className={styles.mainText}>
+                    Lubię <u>kodować, grać i pracować</u>
+                </p>
+                <div className={styles.buttons}>
+                    <Button>Kontakt</Button>
+                    <Button altType>Poznaj mnie</Button>
+                </div>
+                
             </div>
             <div className={styles.containerRight}>
-                <div className={styles.portraitBackground}></div>
                 <img className={styles.portrait} src='src/assets/tahiti.png' />
-                {/* <img style={{height: "500px"}} src='src/assets/tahiti.png' />
-                <div className={styles.portraitBackground}></div> */}
             </div>
         </div>
     )

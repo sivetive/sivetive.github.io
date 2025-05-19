@@ -1,0 +1,42 @@
+.button {
+    background-color: var(--c-orange);
+    padding: 10px 25px;
+    text-transform: uppercase;
+
+    font-family: "Cal Sans", sans-serif;
+    letter-spacing: 2px;
+    color: var(--c-white);
+    box-shadow: 5px 5px 0px var(--c-darkgray);
+    cursor: pointer;
+    border: none;
+
+    width: fit-content;
+}
+
+.button:hover {
+    background-color: var(--c-orange-darker);
+}
+
+.buttonAlt {
+    border: none;
+    color: var(--c-orange);
+    background-color: inherit;
+
+    padding: 10px 25px;
+    text-transform: uppercase;
+
+    font-family: "Cal Sans", sans-serif;
+    letter-spacing: 2px;
+    box-shadow: 5px 5px 0px var(--c-darkgray), 
+                0px 0px 0px 3px var(--c-orange) inset;
+    cursor: pointer;
+
+    width: fit-content;
+}
+
+.buttonAlt:hover {
+    background-color: var(--c-orange-darker);
+    box-shadow: 5px 5px 0px var(--c-darkgray), 
+                0px 0px 0px 3px var(--c-orange-darker) inset;
+    color: var(--c-white);
+}
