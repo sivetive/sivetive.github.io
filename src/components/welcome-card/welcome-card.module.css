@@ -3,6 +3,8 @@
     height: 500px;
 
     display: flex;
+    padding: 0 var(--padding-width);
+    padding-top: var(--padding-height)
 }
 
 .containerLeft {
